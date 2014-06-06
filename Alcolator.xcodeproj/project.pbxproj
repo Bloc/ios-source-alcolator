@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93AFDE4A194254B5005E9CCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AFDE49194254B5005E9CCF /* Foundation.framework */; };
+		93AFDE4C194254B5005E9CCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AFDE4B194254B5005E9CCF /* CoreGraphics.framework */; };
+		93AFDE4E194254B5005E9CCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AFDE4D194254B5005E9CCF /* UIKit.framework */; };
+		93AFDE54194254B5005E9CCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93AFDE52194254B5005E9CCF /* InfoPlist.strings */; };
+		93AFDE56194254B5005E9CCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFDE55194254B5005E9CCF /* main.m */; };
+		93AFDE5A194254B5005E9CCF /* BLCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFDE59194254B5005E9CCF /* BLCAppDelegate.m */; };
+		93AFDE5D194254B5005E9CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AFDE5B194254B5005E9CCF /* Main.storyboard */; };
+		93AFDE60194254B5005E9CCF /* BLCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFDE5F194254B5005E9CCF /* BLCViewController.m */; };
+		93AFDE62194254B5005E9CCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AFDE61194254B5005E9CCF /* Images.xcassets */; };
+		93AFDE69194254B5005E9CCF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AFDE68194254B5005E9CCF /* XCTest.framework */; };
+		93AFDE6A194254B5005E9CCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AFDE49194254B5005E9CCF /* Foundation.framework */; };
+		93AFDE6B194254B5005E9CCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AFDE4D194254B5005E9CCF /* UIKit.framework */; };
+		93AFDE73194254B5005E9CCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93AFDE71194254B5005E9CCF /* InfoPlist.strings */; };
+		93AFDE75194254B5005E9CCF /* AlcolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AFDE74194254B5005E9CCF /* AlcolatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93AFDE6C194254B5005E9CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93AFDE3E194254B5005E9CCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93AFDE45194254B5005E9CCF;
+			remoteInfo = Alcolator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93AFDE46194254B5005E9CCF /* Alcolator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcolator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AFDE49194254B5005E9CCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93AFDE4B194254B5005E9CCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93AFDE4D194254B5005E9CCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93AFDE51194254B5005E9CCF /* Alcolator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alcolator-Info.plist"; sourceTree = "<group>"; };
+		93AFDE53194254B5005E9CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93AFDE55194254B5005E9CCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93AFDE57194254B5005E9CCF /* Alcolator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alcolator-Prefix.pch"; sourceTree = "<group>"; };
+		93AFDE58194254B5005E9CCF /* BLCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLCAppDelegate.h; sourceTree = "<group>"; };
+		93AFDE59194254B5005E9CCF /* BLCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLCAppDelegate.m; sourceTree = "<group>"; };
+		93AFDE5C194254B5005E9CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93AFDE5E194254B5005E9CCF /* BLCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLCViewController.h; sourceTree = "<group>"; };
+		93AFDE5F194254B5005E9CCF /* BLCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLCViewController.m; sourceTree = "<group>"; };
+		93AFDE61194254B5005E9CCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93AFDE67194254B5005E9CCF /* AlcolatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcolatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AFDE68194254B5005E9CCF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93AFDE70194254B5005E9CCF /* AlcolatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlcolatorTests-Info.plist"; sourceTree = "<group>"; };
+		93AFDE72194254B5005E9CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93AFDE74194254B5005E9CCF /* AlcolatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlcolatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93AFDE43194254B5005E9CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFDE4C194254B5005E9CCF /* CoreGraphics.framework in Frameworks */,
+				93AFDE4E194254B5005E9CCF /* UIKit.framework in Frameworks */,
+				93AFDE4A194254B5005E9CCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AFDE64194254B5005E9CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFDE69194254B5005E9CCF /* XCTest.framework in Frameworks */,
+				93AFDE6B194254B5005E9CCF /* UIKit.framework in Frameworks */,
+				93AFDE6A194254B5005E9CCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93AFDE3D194254B5005E9CCF = {
+			isa = PBXGroup;
+			children = (
+				93AFDE4F194254B5005E9CCF /* Alcolator */,
+				93AFDE6E194254B5005E9CCF /* AlcolatorTests */,
+				93AFDE48194254B5005E9CCF /* Frameworks */,
+				93AFDE47194254B5005E9CCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93AFDE47194254B5005E9CCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93AFDE46194254B5005E9CCF /* Alcolator.app */,
+				93AFDE67194254B5005E9CCF /* AlcolatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93AFDE48194254B5005E9CCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93AFDE49194254B5005E9CCF /* Foundation.framework */,
+				93AFDE4B194254B5005E9CCF /* CoreGraphics.framework */,
+				93AFDE4D194254B5005E9CCF /* UIKit.framework */,
+				93AFDE68194254B5005E9CCF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93AFDE4F194254B5005E9CCF /* Alcolator */ = {
+			isa = PBXGroup;
+			children = (
+				93AFDE58194254B5005E9CCF /* BLCAppDelegate.h */,
+				93AFDE59194254B5005E9CCF /* BLCAppDelegate.m */,
+				93AFDE5B194254B5005E9CCF /* Main.storyboard */,
+				93AFDE5E194254B5005E9CCF /* BLCViewController.h */,
+				93AFDE5F194254B5005E9CCF /* BLCViewController.m */,
+				93AFDE61194254B5005E9CCF /* Images.xcassets */,
+				93AFDE50194254B5005E9CCF /* Supporting Files */,
+			);
+			path = Alcolator;
+			sourceTree = "<group>";
+		};
+		93AFDE50194254B5005E9CCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93AFDE51194254B5005E9CCF /* Alcolator-Info.plist */,
+				93AFDE52194254B5005E9CCF /* InfoPlist.strings */,
+				93AFDE55194254B5005E9CCF /* main.m */,
+				93AFDE57194254B5005E9CCF /* Alcolator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93AFDE6E194254B5005E9CCF /* AlcolatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				93AFDE74194254B5005E9CCF /* AlcolatorTests.m */,
+				93AFDE6F194254B5005E9CCF /* Supporting Files */,
+			);
+			path = AlcolatorTests;
+			sourceTree = "<group>";
+		};
+		93AFDE6F194254B5005E9CCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93AFDE70194254B5005E9CCF /* AlcolatorTests-Info.plist */,
+				93AFDE71194254B5005E9CCF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93AFDE45194254B5005E9CCF /* Alcolator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AFDE78194254B6005E9CCF /* Build configuration list for PBXNativeTarget "Alcolator" */;
+			buildPhases = (
+				93AFDE42194254B5005E9CCF /* Sources */,
+				93AFDE43194254B5005E9CCF /* Frameworks */,
+				93AFDE44194254B5005E9CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alcolator;
+			productName = Alcolator;
+			productReference = 93AFDE46194254B5005E9CCF /* Alcolator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93AFDE66194254B5005E9CCF /* AlcolatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AFDE7B194254B6005E9CCF /* Build configuration list for PBXNativeTarget "AlcolatorTests" */;
+			buildPhases = (
+				93AFDE63194254B5005E9CCF /* Sources */,
+				93AFDE64194254B5005E9CCF /* Frameworks */,
+				93AFDE65194254B5005E9CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93AFDE6D194254B5005E9CCF /* PBXTargetDependency */,
+			);
+			name = AlcolatorTests;
+			productName = AlcolatorTests;
+			productReference = 93AFDE67194254B5005E9CCF /* AlcolatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93AFDE3E194254B5005E9CCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BLC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Bloc;
+				TargetAttributes = {
+					93AFDE66194254B5005E9CCF = {
+						TestTargetID = 93AFDE45194254B5005E9CCF;
+					};
+				};
+			};
+			buildConfigurationList = 93AFDE41194254B5005E9CCF /* Build configuration list for PBXProject "Alcolator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93AFDE3D194254B5005E9CCF;
+			productRefGroup = 93AFDE47194254B5005E9CCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93AFDE45194254B5005E9CCF /* Alcolator */,
+				93AFDE66194254B5005E9CCF /* AlcolatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93AFDE44194254B5005E9CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFDE62194254B5005E9CCF /* Images.xcassets in Resources */,
+				93AFDE54194254B5005E9CCF /* InfoPlist.strings in Resources */,
+				93AFDE5D194254B5005E9CCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AFDE65194254B5005E9CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFDE73194254B5005E9CCF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93AFDE42194254B5005E9CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFDE5A194254B5005E9CCF /* BLCAppDelegate.m in Sources */,
+				93AFDE56194254B5005E9CCF /* main.m in Sources */,
+				93AFDE60194254B5005E9CCF /* BLCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AFDE63194254B5005E9CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFDE75194254B5005E9CCF /* AlcolatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93AFDE6D194254B5005E9CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93AFDE45194254B5005E9CCF /* Alcolator */;
+			targetProxy = 93AFDE6C194254B5005E9CCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93AFDE52194254B5005E9CCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93AFDE53194254B5005E9CCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93AFDE5B194254B5005E9CCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93AFDE5C194254B5005E9CCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93AFDE71194254B5005E9CCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93AFDE72194254B5005E9CCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93AFDE76194254B6005E9CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93AFDE77194254B6005E9CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93AFDE79194254B6005E9CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alcolator/Alcolator-Prefix.pch";
+				INFOPLIST_FILE = "Alcolator/Alcolator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93AFDE7A194254B6005E9CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alcolator/Alcolator-Prefix.pch";
+				INFOPLIST_FILE = "Alcolator/Alcolator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		93AFDE7C194254B6005E9CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alcolator.app/Alcolator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alcolator/Alcolator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AlcolatorTests/AlcolatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		93AFDE7D194254B6005E9CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alcolator.app/Alcolator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alcolator/Alcolator-Prefix.pch";
+				INFOPLIST_FILE = "AlcolatorTests/AlcolatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93AFDE41194254B5005E9CCF /* Build configuration list for PBXProject "Alcolator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AFDE76194254B6005E9CCF /* Debug */,
+				93AFDE77194254B6005E9CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93AFDE78194254B6005E9CCF /* Build configuration list for PBXNativeTarget "Alcolator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AFDE79194254B6005E9CCF /* Debug */,
+				93AFDE7A194254B6005E9CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93AFDE7B194254B6005E9CCF /* Build configuration list for PBXNativeTarget "AlcolatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AFDE7C194254B6005E9CCF /* Debug */,
+				93AFDE7D194254B6005E9CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93AFDE3E194254B5005E9CCF /* Project object */;
+}
