@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		931AB063194268A700B4FB76 /* BLCWhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB062194268A700B4FB76 /* BLCWhiskeyViewController.m */; };
+		931AB06619427BD200B4FB76 /* BLCMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB06519427BD200B4FB76 /* BLCMainMenuViewController.m */; };
 		93AFDE4A194254B5005E9CCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AFDE49194254B5005E9CCF /* Foundation.framework */; };
 		93AFDE4C194254B5005E9CCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AFDE4B194254B5005E9CCF /* CoreGraphics.framework */; };
 		93AFDE4E194254B5005E9CCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AFDE4D194254B5005E9CCF /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* Begin PBXFileReference section */
 		931AB061194268A700B4FB76 /* BLCWhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCWhiskeyViewController.h; sourceTree = "<group>"; };
 		931AB062194268A700B4FB76 /* BLCWhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCWhiskeyViewController.m; sourceTree = "<group>"; };
+		931AB06419427BD200B4FB76 /* BLCMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCMainMenuViewController.h; sourceTree = "<group>"; };
+		931AB06519427BD200B4FB76 /* BLCMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCMainMenuViewController.m; sourceTree = "<group>"; };
 		93AFDE46194254B5005E9CCF /* Alcolator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcolator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AFDE49194254B5005E9CCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93AFDE4B194254B5005E9CCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,13 +83,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		931AB060194263A900B4FB76 /* iPad */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = iPad;
-			sourceTree = "<group>";
-		};
 		93AFDE3D194254B5005E9CCF = {
 			isa = PBXGroup;
 			children = (
@@ -120,9 +116,10 @@
 		93AFDE4F194254B5005E9CCF /* Alcolator */ = {
 			isa = PBXGroup;
 			children = (
-				931AB060194263A900B4FB76 /* iPad */,
 				93AFDE58194254B5005E9CCF /* BLCAppDelegate.h */,
 				93AFDE59194254B5005E9CCF /* BLCAppDelegate.m */,
+				931AB06419427BD200B4FB76 /* BLCMainMenuViewController.h */,
+				931AB06519427BD200B4FB76 /* BLCMainMenuViewController.m */,
 				93AFDE5E194254B5005E9CCF /* BLCViewController.h */,
 				93AFDE5F194254B5005E9CCF /* BLCViewController.m */,
 				931AB061194268A700B4FB76 /* BLCWhiskeyViewController.h */,
@@ -260,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93AFDE5A194254B5005E9CCF /* BLCAppDelegate.m in Sources */,
+				931AB06619427BD200B4FB76 /* BLCMainMenuViewController.m in Sources */,
 				931AB063194268A700B4FB76 /* BLCWhiskeyViewController.m in Sources */,
 				93AFDE56194254B5005E9CCF /* main.m in Sources */,
 				93AFDE60194254B5005E9CCF /* BLCViewController.m in Sources */,

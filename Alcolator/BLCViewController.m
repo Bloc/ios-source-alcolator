@@ -45,6 +45,8 @@
     // calls the superclass's implementation
     [super viewDidLoad];
     
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
     // tells the text field that `self` should be treated as the text field's delegate
     self.beerPercentTextField.delegate = self;
     
@@ -69,12 +71,14 @@
     
     //gets rid of the maximum number of lines on the label
     self.resultLabel.numberOfLines = 0;
+    
+    self.title = NSLocalizedString(@"Wine", @"wine");
 }
 
 - (void) viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
     
-    CGFloat viewWidth = 320;
+    CGFloat viewWidth = CGRectGetWidth(self.view.bounds);
     CGFloat padding = 20;
     CGFloat itemWidth = viewWidth - padding - padding;
     CGFloat itemHeight = 44;
